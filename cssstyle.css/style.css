@@ -62,6 +62,10 @@ header .container .menu ul li a {
     line-height: 70px;
 }
 
+header .container .menu ul li a:hover {
+    color: #0057fc;
+}
+
 header .container .talk {
     width: 20%;
     text-align: center;
@@ -391,6 +395,32 @@ footer {
     }
     footer {
         margin-top: 12px;
+    }
+    #fashion small {
+        margin-bottom: 7px;
+    }
+    #fashion ul li a {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #pick h2 {
+        font-size: 2.5rem;
+    }
+    #pick ul li p {
+        margin-bottom: 50px;
+    }#pick ul li a {
+        margin-top: 10px;
+    }
+    #news h2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        font-size: 2.3rem;
+    }
+    #news ul li p {
+        margin-left: 5px;
+    }
+    #news ul li small {
+        margin-left: 5px;
     }
 }
 
